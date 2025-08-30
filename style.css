@@ -74,7 +74,7 @@ body{
     width: 15rem;
     margin-top: 2rem;
     font-weight: 600;
-    color: rgb(245, 219, 242);
+    color: rgb(206, 220, 240);
     
    
 }
@@ -179,9 +179,37 @@ color: rgb(255, 255, 255);
     opacity: 1;
 }
 
-
-
-
+.skills .tools > ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.skills .personal ul, #pessoal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0;
+    list-style: disc;
+    align-content: center;
+    
+  }
+  .skills .personal ul{
+    margin-left: 1rem;
+  }
+  .content li, #port , a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 0.6rem;
+  }
 
 
 @media screen and (min-width: 768px) {
